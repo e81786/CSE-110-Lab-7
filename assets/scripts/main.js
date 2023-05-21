@@ -46,8 +46,6 @@ function initializeServiceWorker() {
   // sw.js is executed.
   // B1. TODO - Check if 'serviceWorker' is supported in the current browser
   if ("serviceWorker" in navigator) {
-    console.log("True");
-
     // B2. TODO - Listen for the 'load' event on the window object.
     addEventListener("load", (event) => {
       // Steps B3-B6 will be *inside* the event listener's function created in B2
